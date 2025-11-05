@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mahongtoto-linkvip.netlify.app/sitemap.xml
