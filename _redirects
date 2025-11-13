@@ -1,3 +1,1 @@
-# Aturan Netlify 301 Redirect (Permanent SEO Redirect)
-https://mahongtoto-daftar.pages.dev/* https://mahongtoto-linkvip.netlify.app/:splat 301
-http://mahongtoto-daftar.pages.dev/* https://mahongtoto-linkvip.netlify.app/:splat 301
+/sitemap.xml /sitemap.xml.txt 200
