@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://mahongtoto-linkvip.netlify.app/sitemap.xml
+Sitemap: https://mahongtoto-ID.github.io/mahongtoto-login/sitemap.xml.txt
