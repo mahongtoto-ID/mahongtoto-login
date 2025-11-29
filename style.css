@@ -1,0 +1,248 @@
+/* Palet Warna: #1a1a1a (Black), #FFD700 (Gold/Emas), #FFA500 (Orange/Oranye-Emas), #2e2e2e (Dark Grey) */
+
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-color: #1a1a1a;
+    
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.hero-section {
+    background: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hero-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+.hero-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFD700;
+    background-color: #000;
+    padding: 5px;
+    display: inline-block;
+    /* TAMBAHAN UNTUK JUDUL BERIKUTNYA */
+    margin-top: 5px; 
+}
+
+.header-container {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 10px 20px;
+    border-bottom: 2px solid #FFD700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.header-logo img {
+    height: 45px;
+    width: auto;
+    display: block;
+}
+
+
+.full-width-button {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #fff;
+    background-color: #FFD700;
+    max-width: 95%;
+    width: 100%;
+    margin: 20px auto 0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+    box-sizing: border-box;
+}
+.full-width-button a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.full-width-button p {
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+}
+
+
+.bottom-nav-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    border-top: 2px solid #FFD700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0;
+    z-index: 9999;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.7);
+}
+.bottom-nav-item {
+    text-align: center;
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    transition: color 0.3s;
+}
+.bottom-nav-item img {
+    width: auto; 
+    height: auto;
+    max-height: 40px; /* Batasan agar ikon tidak terlalu besar */
+}
+
+
+.content-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.list-item {
+    color: #FFD700;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.list-item::before {
+    content: "\272A\0020"; 
+    color: #FFD700;
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+
+.faq-section {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.faq-item { background-color: #2e2e2e; border: 1px solid #FFD700; border-radius: 6px; margin-bottom: 10px; }
+.faq-summary { color: #FFD700; font-weight: bold; padding: 15px; cursor: pointer; list-style: none; position: relative; }
+.faq-summary::marker { content: ''; }
+.faq-summary::after { content: '+'; position: absolute; right: 15px; color: #FFD700; }
+details[open] .faq-summary::after { content: '–'; }
+.faq-content { padding: 15px; padding-top: 0; color: #ccc; border-top: 1px solid #444; }
+
+
+.testimonial-section {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.testimonial-item { background-color: #2e2e2e; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); border-left: 5px solid #FFD700; }
+.testimonial-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.member-name { font-weight: bold; color: #FFD700; display: flex; align-items: center; }
+.member-icon { margin-right: 8px; color: #FFD700; font-size: 1.2rem; }
+.stars { color: #FFD700; font-size: 1.2rem; }
+.testimonial-text { color: #ccc; font-size: 14px; }
+
+
+@media screen and (max-width: 768px) {
+    .hero-section {
+        height: 300px;
+        padding-top: 20px;
+    }
+    .hero-box h2 {
+        font-size: 20px !important;
+    }
+    .hero-box p {
+        font-size: 12px !important;
+    }
+    .header-container {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header-logo img {
+        height: 35px;
+        margin: 0 auto;
+    }
+    .header-menu {
+        width: 100%;
+        justify-content: space-between !important;
+    }
+    .header-menu a {
+        padding: 5px 5px;
+        margin: 0 2px;
+        font-size: 10px;
+        flex-direction: column;
+    }
+    .menu-icon-header {
+        margin-right: 0;
+        margin-bottom: 3px;
+    }
+    .daftar-highlight {
+        padding: 5px 10px !important;
+        border-radius: 15px;
+    }
+    .content-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .content-section > div {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    .faq-summary { font-size: 14px; }
+    .faq-content p { font-size: 12px; }
+
+    
+    .bottom-nav-fixed {
+        display: flex;
+    }
+    
+    body {
+        padding-bottom: 70px; 
+    }
+    /* Memastikan ikon tetap terlihat besar pada mobile */
+    .bottom-nav-item img {
+        max-height: 45px;
+    }
+}
