@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://mahongtoto-id.github.io/mahongtoto-login/sitemap.xml
+
+Sitemap: https://mahongtotolink.com/sitemap.xml
